@@ -12,7 +12,7 @@ function Home(props) {
         <button className="button">{props.tech3}</button>
       </div>
       <div className="rating">
-        <input value="5" name="rating" id="star5" type="radio" />
+        <input value="5" name="rating" id="star5" type="radio"  />
         <label htmlFor="star5"></label>
         <input value="4" name="rating" id="star4" type="radio" />
         <label htmlFor="star4"></label>
