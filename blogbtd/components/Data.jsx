@@ -11,7 +11,7 @@ function Data() {
     <>
       <BrowserRouter>
       <Form>
-        <InputGroup className="w-25 p-3">
+        <InputGroup className="w-30 p-3">
           <Form.Control  placeholder="Search Blog"  onChange={(e) => setSearch(e.target.value)} />
          </InputGroup>
       </Form>
