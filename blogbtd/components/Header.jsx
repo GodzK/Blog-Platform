@@ -1,5 +1,5 @@
 import React from 'react';
-import pk from '../public/profile.png';
+import pk from '../public/images/profile.png';
 import './Header.css';
 
 function Header() {
