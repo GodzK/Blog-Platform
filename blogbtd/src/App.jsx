@@ -45,12 +45,22 @@ function App() {
                 <span className="bar"></span>
               </div>
             )}
-            <ul className={`menu ${showMenu && isMobile ? 'active' : ''}`}>
-              {isMobile ? (
+            <ul className={`menu ${isMobile ? (showMenu ? 'active' : '') : ''}`}>
+              {isMobile && showMenu && (
                 <>
                   <li>
                     <NavLink to="/" onClick={() => setShowMenu(false)}>
                       Home
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/About" onClick={() => setShowMenu(false)}>
+                      About
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/Category" onClick={() => setShowMenu(false)}>
+                      Category
                     </NavLink>
                   </li>
                   <li>
@@ -59,10 +69,17 @@ function App() {
                     </NavLink>
                   </li>
                 </>
-              ) : (
+              )}
+              {!isMobile && (
                 <>
                   <li>
                     <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/About">About</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/Category">Category</NavLink>
                   </li>
                   <li>
                     <NavLink to="/Contact">Contact</NavLink>
