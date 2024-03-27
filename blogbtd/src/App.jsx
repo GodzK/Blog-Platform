@@ -1,10 +1,10 @@
 import '../components/navbar';
 import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom';
-import Feedback from '../pages/feedback';
-import About from '../pages/about';
-import Contact from '../pages/contact';
-import Category from '../pages/category';
-import Data from '../pages/Data'
+import Feedback from '../components/feedback';
+import About from '../components/about';
+import Contact from '../components/contact';
+import Category from '../components/category';
+import Data from '../components/Data'
 import Header from '../components/Header';
 import Button from 'react-bootstrap/Button';
 import './App.css'
