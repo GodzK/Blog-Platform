@@ -6,6 +6,7 @@ import Contact from '../pages/contact';
 import Category from '../pages/category';
 import Data from '../pages/Data'
 import Header from '../components/Header';
+import Button from 'react-bootstrap/Button';
 import './App.css'
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             <li><NavLink to="/About">About</NavLink></li>
             <li><NavLink to="/Category">Category</NavLink></li>
             <li><NavLink to="/Contact">Contact</NavLink></li>
-            <button className="log">Login</button>
-            <button className="reg">Sign up</button>
+            <Button variant="primary">Login</Button>{' '}
+            <Button variant="light">Sign up</Button>{' '}
           </ul>
         </div>
       </nav>

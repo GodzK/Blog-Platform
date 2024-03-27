@@ -80,7 +80,7 @@ button {
   border-radius: 4px;
   font-weight: 600;
   margin: 0 10px;
-  width: 60px;
+  width: 100px;
   padding: 10px 0;
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
   transition: 0.4s;
@@ -99,7 +99,7 @@ button {
 
 button:hover {
   color: white;
-  width: 63px;  
+  width: 100px;  
   box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
   background-color: rgba(104, 85, 224, 1);
 }
