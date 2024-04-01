@@ -1,10 +1,10 @@
-export const db = [{
+ [{
     "link": "https://www.borntodev.com/?p=95333",
     "img" : "/images/he.jpg",
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech3":"JAVASCRIPT"
 }
 ,
 {
@@ -13,7 +13,7 @@ export const db = [{
     "text": "Testimonien",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech3":"JAVASCRIPT"
 }
 ,
 {
@@ -22,7 +22,7 @@ export const db = [{
     "text": "Complexity",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech3":"JAVASCRIPT"
 }
 ,
 {
@@ -31,7 +31,7 @@ export const db = [{
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech3":"JAVASCRIPT"
 }
 ,
 {
@@ -40,6 +40,6 @@ export const db = [{
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech3":"JAVASCRIPT"
 }
-,]
+]
