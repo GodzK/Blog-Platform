@@ -34,9 +34,8 @@ function App() {
       <nav>
         <div className="navbar">
           <div className="logo">
-          <NavLink to="/"><span>PK</span>
-            <a href="#">blog</a></NavLink>
-            
+          <NavLink to="/"><span style={{ fontSize: "0.9rem" }}>PK</span>
+            <a href="#" style={{ fontSize: "1.3rem" }}>blog</a></NavLink>
           </div>
           {isMobile && (
             <div className="menu-toggle" onClick={toggleMenu}>
