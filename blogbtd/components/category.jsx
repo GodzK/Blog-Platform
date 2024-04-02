@@ -15,7 +15,7 @@ function category() {
         <CardMedia
           component="img"
           height="400"
-          image="../public/images/Frontend.png"
+          image="/images/Frontend.png"
           alt="green iguana"
         />
         <CardContent>
@@ -33,7 +33,7 @@ function category() {
         <CardMedia
           component="img"
           height="400"
-          image="../public/images/Backend.png"
+          image="/images/Backend.png"
           alt="green iguana"
         />
         <CardContent>
@@ -52,7 +52,7 @@ function category() {
         <CardMedia
           component="img"
           height="400"
-          image="../public/images/ux-ui.jpg"
+          image="/images/ux-ui.jpg"
           alt="green iguana"
         />
         <CardContent>
@@ -70,7 +70,7 @@ function category() {
         <CardMedia
           component="img"
           height="400"
-          image="../public/images/webf.png"
+          image="/images/webf.png"
           alt="green iguana"
         />
         <CardContent>
