@@ -29,6 +29,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                 tech1={item.tech1}
                 tech2={item.tech2}
                 tech3={item.tech3}
+                viewer={item.viewer}
               />
             ))}
         </div>

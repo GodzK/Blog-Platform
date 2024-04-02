@@ -4,7 +4,8 @@
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT"
+    "tech3":"JAVASCRIPT",
+    "viewer": 19
 }
 ,
 {
@@ -13,7 +14,8 @@
     "text": "Testimonien",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT"
+    "tech3":"JAVASCRIPT",
+    "viewer": 8
 }
 ,
 {
@@ -22,7 +24,8 @@
     "text": "Complexity",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT"
+    "tech3":"JAVASCRIPT",
+    "viewer": 7
 }
 ,
 {
@@ -31,7 +34,8 @@
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT"
+    "tech3":"JAVASCRIPT",
+    "viewer": 12
 }
 ,
 {
@@ -40,6 +44,17 @@
     "text": "Hover Effectคืออะไร?",
     "tech1":"FrontEnd",
     "tech2": "CSS",
-    "tech3":"JAVASCRIPT"
+    "tech3":"JAVASCRIPT",
+    "viewer": 14
+},
+{
+    "link": "https://www.borntodev.com/?p=95333",
+    "img" : "/images/comingsoon.jpg",
+    "text": "Hover Effectคืออะไร?",
+    "tech1":"FrontEnd",
+    "tech2": "CSS",
+    "tech3":"JAVASCRIPT",
+    "viewer": 3
 }
+
 ]

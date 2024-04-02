@@ -3,7 +3,11 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   gap: 10px;
 }
-  
+  .user-emo {
+    display: flex;
+    justify-items: end;
+    justify-content: end;
+  }
 
 .pic-card {
   display: flex;
