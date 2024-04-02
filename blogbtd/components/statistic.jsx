@@ -15,7 +15,7 @@ function Statistic(props) {
 
   return (
     <div className="containerr">
-       <h1>Statistic📈</h1>
+       <h1 style={{ textAlign: "center" , padding:"3rem"}}>Statistic📈</h1>
       <Grid container spacing={3} className="grid-container">
         <Grid item xs={12} md={6} className='grid-item'>
           <CardContent>

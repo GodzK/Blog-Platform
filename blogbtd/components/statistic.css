@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.containerr {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
 .grid-container {
     display: grid;
@@ -16,6 +9,11 @@
     gap: 20px; 
     text-align: center;
     padding-top: 5rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .grid-item {
