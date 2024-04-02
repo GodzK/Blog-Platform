@@ -62,11 +62,6 @@ function App() {
                     Category
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/Contact" onClick={() => setShowMenu(false)}>
-                    Contact
-                  </NavLink>
-                </li>
               </>
             )}
             {!isMobile && (
@@ -80,9 +75,7 @@ function App() {
                 <li>
                   <NavLink to="/Category">Category</NavLink>
                 </li>
-                <li>
-                  <NavLink to="/Contact">Contact</NavLink>
-                </li>
+
                 <li>
                   <Button variant="primary">Login</Button>{' '}
                   <Button variant="light">Sign up</Button>{' '}
