@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 821);
     };
 
     handleResize();
@@ -34,8 +34,9 @@ function App() {
       <nav>
         <div className="navbar">
           <div className="logo">
-            <span>PK</span>
-            <a href="#">blog</a>
+          <NavLink to="/"><span>PK</span>
+            <a href="#">blog</a></NavLink>
+            
           </div>
           {isMobile && (
             <div className="menu-toggle" onClick={toggleMenu}>

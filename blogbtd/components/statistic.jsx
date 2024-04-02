@@ -12,79 +12,67 @@ import db from './db.json';
 function Statistic(props) {
   const totalViewers = db.reduce((accumulator, currentValue) => accumulator + currentValue.viewer, 0);
   const totalBlogs = db.length;
-  
+
   return (
-    <div className="container text-center p-5">
-      <Grid container spacing={3} className='gridd' >
-        
-        <Grid item xl={12} xs={12} sm={6} >
-          <Card variant="outlined">
-            <CardContent className='bg-success p-3'>
-              <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
-                All Blog
-              </Typography>
-              <Typography variant="h4" component="div">
-                Total Viewer is {totalViewers}
-              </Typography>
-              <Typography color="text.secondary">
-                Active
-              </Typography>
-            </CardContent>
-          </Card>
+    <div className="containerr">
+       <h1>Statistic📈</h1>
+      <Grid container spacing={3} className="grid-container">
+        <Grid item xs={12} md={6} className='grid-item'>
+          <CardContent>
+            <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
+              All Blog
+            </Typography>
+            <Typography variant="h4" component="div">
+              Total Viewer  {totalViewers}
+            </Typography>
+            <Typography color="text.secondary">
+              Active
+            </Typography>
+          </CardContent>
         </Grid>
-        
-        <Grid item xl={12} xs={12} sm={6}>
-          <Card variant="outlined">
-            <CardContent className='bg-danger p-3'>
-              <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
-                All Blog
-              </Typography>
-              <Typography variant="h4" component="div">
-                Total Blog is <br /> {totalBlogs} 
-              </Typography>
-              <Typography color="text.secondary">
-                Active
-              </Typography>
-            </CardContent>
-          </Card>
+        <Grid item xs={12} md={6} className='grid-item'>
+          <CardContent>
+            <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
+              All Blog
+            </Typography>
+            <Typography variant="h4" component="div">
+              Total Blog {totalBlogs} 
+            </Typography>
+            <Typography color="text.secondary">
+              Active
+            </Typography>
+          </CardContent>
         </Grid>
-        
-        <Grid item xl={12} xs={12} sm={6}>
-          <Card variant="outlined">
-            <CardContent className='bg-white p-3'>
-              <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
-                People love this
-              </Typography>
-              <Typography variant="h4" component="div" className="d-flex justify-content-center align-items-center">
-                <Stack>
-                  <Gauge width={120} height={120} value={60} />
-                </Stack>
-              </Typography>
-              <Typography color="text.secondary">
-                Active
-              </Typography>
-            </CardContent>
-          </Card>
+        <Grid item xs={12} md={6} className='grid-item'>
+          <CardContent>
+            <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
+              People love this
+            </Typography>
+            <Typography variant="h4" component="div" className="d-flex justify-content-center align-items-center">
+              <Stack>
+                <Gauge width={120} height={120} value={60} />
+              </Stack>
+            </Typography>
+            <Typography color="text.secondary">
+              Active
+            </Typography>
+          </CardContent>
         </Grid>
-        
-        <Grid item xl={12} xs={12} sm={6}>
-          <Card variant="outlined">
-            <CardContent className='bg-white p-3'>
-              <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
-                People love this
-              </Typography>
-              <Typography variant="h4" component="div" className="d-flex justify-content-center align-items-center">
-                <Stack>
-                  <Gauge width={120} height={120} value={60} />
-                </Stack>
-              </Typography>
-              <Typography color="text.secondary">
-                Active
-              </Typography>
-            </CardContent>
-          </Card>
+        <Grid item xs={12} md={6} className='grid-item'>
+          <CardContent>
+            <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
+              People love this
+            </Typography>
+            <Typography variant="h4" component="div" className="d-flex justify-content-center align-items-center">
+              <Stack>
+                <Gauge width={120} height={120} value={60} />
+              </Stack>
+            </Typography>
+            <Typography color="text.secondary">
+              Active
+            </Typography>
+          </CardContent>
         </Grid>
-      
       </Grid>
     </div>
   );
