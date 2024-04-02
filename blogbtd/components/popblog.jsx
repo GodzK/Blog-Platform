@@ -54,7 +54,7 @@ function popblog() {
         <button>อ่านเพิ่มเติม</button>
       </a>    </p>
     </article>
-    <article className="testimonial flow bg-neutral-100 text-secondary-400">
+    <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
         <div>
           <img src="../public/images/profile.png" alt="Jeanette Harmon"/>
@@ -96,7 +96,7 @@ function popblog() {
         <button>อ่านเพิ่มเติม</button>
       </a>    </p>
     </article>
-    <article className="testimonial flow bg-neutral-100 text-secondary-400">
+    <article className="testimonial flow bg-secondary-500 text-neutral-100">
       <div className="flex">
         <div>
           <img src="../public/images/profile.png" alt="Phakaphol Dherachaisuphakij"/>

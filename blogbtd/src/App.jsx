@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom';
 import Feedback from '../components/feedback';
-import About from '../components/about';
+import Statistic from '../components/statistic';
 import Contact from '../components/contact';
 import Category from '../components/category';
 import Homepages from './Homepages'
@@ -53,8 +53,8 @@ function App() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/About" onClick={() => setShowMenu(false)}>
-                    About
+                  <NavLink to="/Statistic" onClick={() => setShowMenu(false)}>
+                    Statistic
                   </NavLink>
                 </li>
                 <li>
@@ -75,7 +75,7 @@ function App() {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/About">About</NavLink>
+                  <NavLink to="/Statistic">Statistic</NavLink>
                 </li>
                 <li>
                   <NavLink to="/Category">Category</NavLink>
@@ -95,7 +95,7 @@ function App() {
      
         <Routes>
           <Route path="/" element={<Homepages />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/Statistic" element={<Statistic />} />
           <Route path="/Category" element={<Category />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Feedback" element={<Feedback />} />

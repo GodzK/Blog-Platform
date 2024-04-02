@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='container'>
       <div className='header-name'>
-        <h1>Hi Im <span style={{ color: "blueviolet" }}>Pk Phakaphol Dherachaisuphakij</span> </h1>
+      <h2>Hi Im <span style={{ color: "blueviolet" }}>Pk Phakaphol Dherachaisuphakij</span> </h2>
         <p>front-end Developer Section from Bortodev Devinit#2</p>
         <div className='social'>
            <a href='https://www.facebook.com/phakaphol.dherachaisuphakij/'><img src="/images/fb.png" alt=""  /></a>
