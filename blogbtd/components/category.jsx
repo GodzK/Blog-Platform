@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 function category() {
   return (
     <div className="grid-container">
+      
     <div className="grid-item">  <Card sx={{ maxWidth: 345 }}>
       
         <CardMedia

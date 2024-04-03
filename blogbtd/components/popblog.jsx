@@ -18,8 +18,7 @@ function popblog() {
         </div>
       </div>
       <p>
-        I received a job offer mid-course, and the subjects I learned were current, if not more so,
-        in the company I joined. I honestly feel I got every penny’s worth.
+       Hover Effectคืออะไร??
       </p>
       <p>
         “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
@@ -28,7 +27,7 @@ function popblog() {
         The next 12 weeks was the best - and most grueling - time of my life. Since completing
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
       </p>
-      <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
         <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
         <button>อ่านเพิ่มเติม</button>
       </a> 
@@ -45,7 +44,7 @@ function popblog() {
         </div>
       </div>
       <p>
-        The team was very supportive and kept me motivated
+       Gsapคืออะไร?
       </p>
       <p>
         “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
