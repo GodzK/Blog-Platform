@@ -10,11 +10,11 @@
 ,
 {
     "link": "https://www.borntodev.com/?p=95333 ",
-    "img" : "/images/comingsoon.jpg",
-    "text": "Testimonien",
+    "img" : "/images/GSAP.jpg",
+    "text": "GSAPคืออะไร??",
     "tech1":"FrontEnd",
-    "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "tech2": "Framework",
+    "tech3":"JSX",
     "viewer": 8
 }
 ,
