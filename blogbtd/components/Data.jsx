@@ -31,7 +31,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                 tech3={item.tech3}
                 link={item.link}
                 viewer={item.viewer}
-                
               />
             ))}
         </div>

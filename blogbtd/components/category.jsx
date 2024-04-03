@@ -7,6 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Button from 'react-bootstrap/Button';
+import { BrowserRouter, Link} from 'react-router-dom';
 function category() {
   return (
     <div className="grid-container">
@@ -21,7 +22,7 @@ function category() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          <Button variant="outline-primary">Front-end</Button>{' '}
+          <Link to="/Frontend"><Button variant="outline-primary">Front-end</Button>{' '}</Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
            
@@ -39,7 +40,7 @@ function category() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          <Button variant="outline-danger">Back-end</Button>{' '}
+         <Link to="/Backend"><Button variant="outline-danger">Back-end</Button>{' '}</Link> 
           </Typography>
           <Typography variant="body2" color="text.secondary">
            
@@ -58,7 +59,7 @@ function category() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          <Button variant="outline-success">UX/UI</Button>{' '}
+         <Link to="/UX-UI"><Button variant="outline-success">UX/UI</Button>{' '}</Link> 
           </Typography>
           <Typography variant="body2" color="text.secondary">
            
@@ -76,7 +77,7 @@ function category() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          <Button variant="outline-warning">Framework</Button>{' '}
+          <Link to="/Framework"><Button variant="outline-warning">Framework</Button>{' '}</Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
            

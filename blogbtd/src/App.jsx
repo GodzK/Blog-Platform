@@ -5,6 +5,10 @@ import Statistic from '../components/statistic';
 import Contact from '../components/contact';
 import Category from '../components/category';
 import Homepages from './Homepages'
+import Backend from '../components/backend';
+import Frontend from '../components/frontend';
+import UXUI from '../components/Uxui'
+import Framework from '../components/Framework';
 import Button from 'react-bootstrap/Button';
 import './App.css';
 
@@ -92,6 +96,10 @@ function App() {
           <Route path="/Category" element={<Category />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Feedback" element={<Feedback />} />
+          <Route path="/Backend" element={<Backend />} />
+          <Route path="/Frontend" element={<Frontend />} />
+          <Route path="/UX-UI" element={<UXUI />} />
+          <Route path="/Framework" element={<Framework />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -9,20 +9,20 @@
 }
 ,
 {
-    "link": "https://www.borntodev.com/?p=95333 ",
+    "link": "https://www.borntodev.com/?p=96255&preview=true ",
     "img" : "/images/GSAP.jpg",
     "text": "Gsapคืออะไร",
     "tech1":"FrontEnd",
     "tech2": "Framework",
-    "tech3":"Jsx",
+    "tech3":"JSX",
     "viewer": 8
 }
 ,
 {
     "link": "https://www.borntodev.com/?p=95333",
     "img" : "/images/comingsoon.jpg",
-    "text": "Complexity",
-    "tech1":"FrontEnd",
+    "text": "Comingsoon",
+    "tech1":"BackEnd",
     "tech2": "CSS",
     "tech3":"JAVASCRIPT",
     "viewer": 7
@@ -31,8 +31,8 @@
 {
     "link": "https://www.borntodev.com/?p=95333",
     "img" : "/images/comingsoon.jpg",
-    "text": "Hover Effectคืออะไร?",
-    "tech1":"FrontEnd",
+    "text": "Comingsoon",
+    "tech1":"BackEnd",
     "tech2": "CSS",
     "tech3":"JAVASCRIPT",
     "viewer": 12
@@ -41,8 +41,8 @@
 {
     "link": "https://www.borntodev.com/?p=95333",
     "img" : "/images/comingsoon.jpg",
-    "text": "Hover Effectคืออะไร?",
-    "tech1":"FrontEnd",
+    "text": "Comingsoon",
+    "tech1":"UX-UI",
     "tech2": "CSS",
     "tech3":"JAVASCRIPT",
     "viewer": 14
@@ -50,8 +50,8 @@
 {
     "link": "https://www.borntodev.com/?p=95333",
     "img" : "/images/comingsoon.jpg",
-    "text": "Hover Effectคืออะไร?",
-    "tech1":"FrontEnd",
+    "text": "Comingsoon",
+    "tech1":"Framework",
     "tech2": "CSS",
     "tech3":"JAVASCRIPT",
     "viewer": 3
