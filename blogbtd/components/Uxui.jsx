@@ -6,8 +6,8 @@ function Uxui() {
 
   return (
     <>
- <h2 className="text-centerr ">บทความเกี่ยวกับ <span>Ux/Ui</span></h2>
-      <div className="grid-containerr">     
+ <h2 className="text-center ">บทความเกี่ยวกับ <span>Ux/Ui</span></h2>
+      <div className="grid-container">     
       
        
         {UxUiData.map((item) => (
