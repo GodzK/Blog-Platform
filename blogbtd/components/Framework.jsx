@@ -1,14 +1,14 @@
 import React from "react";
 import db from "./db.json";
-
+import '../style/foursec.css'
 function Framework() {
   const Frameworkdata = db.filter((item) => item.tech1 === "Framework");
 
   return (
     <>
-
+     <h2 className="text-center ">บทความเกี่ยวกับ <span>Framework</span></h2>
       <div className="grid-container">     
-       <h2 className="text-center ">บทความเกี่ยวกับ <span>Framework</span></h2>
+  
        
         {Frameworkdata.map((item) => (
           <div key={item.link}>

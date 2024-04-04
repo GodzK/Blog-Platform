@@ -1,14 +1,14 @@
 import React from "react";
 import db from "./db.json";
-
+import '../style/foursec.css'
 function Frontend() {
   const frontEndData = db.filter((item) => item.tech1 === "FrontEnd");
 
   return (
     <>
-
+ <h2 className="text-center m-2">บทความเกี่ยวกับ <span>Frontend</span></h2>
       <div className="grid-container">     
-       <h2 className="text-center m-2">บทความเกี่ยวกับ <span>Frontend</span></h2>
+      
         {frontEndData.map((item) => (
           <div key={item.link}>
             <h3>{item.text}</h3>

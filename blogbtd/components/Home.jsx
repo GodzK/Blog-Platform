@@ -24,7 +24,7 @@ function Home(props) {
         <button className="button">{props.tech3}</button>
       </div>
       <div className="user-emo">
-         {props.viewer}
+      👤{props.viewer}
       </div>
     </div>
   );

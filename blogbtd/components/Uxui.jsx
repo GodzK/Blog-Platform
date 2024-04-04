@@ -1,14 +1,14 @@
 import React from "react";
 import db from "./db.json";
-
+import '../style/foursec.css'
 function Uxui() {
   const UxUiData = db.filter((item) => item.tech1 === "UX-UI");
 
   return (
     <>
-
+ <h2 className="text-center ">บทความเกี่ยวกับ <span>Ux/Ui</span></h2>
       <div className="grid-container">     
-       <h2 className="text-center ">บทความเกี่ยวกับ <span>Ux/Ui</span></h2>
+      
        
         {UxUiData.map((item) => (
           <div key={item.link}>
