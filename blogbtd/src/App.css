@@ -204,7 +204,7 @@ button:hover {
   margin: 5px 0;
 }
 
-@media screen and (max-width: 1056px) {
+@media screen and (max-width: 1026px) {
   .menu {
     display: none;
   }
