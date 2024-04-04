@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; /* Gap between grid items */
+    text-align: center;
+    padding-top: 5rem;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 5px;
+  }
