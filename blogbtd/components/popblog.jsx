@@ -10,7 +10,7 @@ function popblog() {
     <article className="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
       <div className="flex">
         <div>
-          <img  src="../public/images/profile.png" alt="daniel clifford"/>
+          <img  src="/public/images/profile.png" alt="daniel clifford"/>
         </div>
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
@@ -36,7 +36,7 @@ function popblog() {
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
         <div>
-          <img src="../public/images/profile.png" alt="Jonathan Walters"/>
+          <img src="/public/images/profile.png" alt="Jonathan Walters"/>
         </div>
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
@@ -56,7 +56,7 @@ function popblog() {
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
         <div>
-          <img src="../public/images/profile.png" alt="Jeanette Harmon"/>
+          <img src="/public/images/profile.png" alt="Jeanette Harmon"/>
         </div>
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
@@ -75,7 +75,7 @@ function popblog() {
     <article className="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
       <div className="flex">
         <div>
-          <img className="border-primary-400" src="../public/images/profile.png" alt="Patrick Abrams"/>
+          <img className="border-primary-400" src="/public/images/profile.png" alt="Patrick Abrams"/>
         </div>
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
@@ -98,7 +98,7 @@ function popblog() {
     <article className="testimonial flow bg-secondary-500 text-neutral-100">
       <div className="flex">
         <div>
-          <img src="../public/images/profile.png" alt="Phakaphol Dherachaisuphakij"/>
+          <img src="/public/images/profile.png" alt="Phakaphol Dherachaisuphakij"/>
         </div>
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
