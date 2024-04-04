@@ -4,10 +4,10 @@ import Feedback from '../components/feedback';
 import Statistic from '../components/statistic';
 import Contact from '../components/contact';
 import Category from '../components/category';
-import Homepages from './Homepages'
+import Homepages from './Homepages';
 import Backend from '../components/backend';
 import Frontend from '../components/frontend';
-import UXUI from '../components/Uxui'
+import UXUI from '../components/Uxui';
 import Framework from '../components/Framework';
 import Button from 'react-bootstrap/Button';
 import Create from '../components/Create';
@@ -16,11 +16,11 @@ import './App.css';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1056);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1101);
+      setIsMobile(window.innerWidth <= 1056);
     };
 
     handleResize();
@@ -40,8 +40,10 @@ function App() {
       <nav>
         <div className="navbar">
           <div className="logo">
-          <NavLink to="/"><span style={{ fontSize: "0.9rem" }}>PK</span>
-            <a href="#" style={{ fontSize: "1.3rem" }}>blog</a></NavLink>
+            <NavLink to="/">
+              <span style={{ fontSize: "0.9rem" }}>PK</span>
+              <a href="#" style={{ fontSize: "1.3rem" }}>blog</a>
+            </NavLink>
           </div>
           {isMobile && (
             <div className="menu-toggle" onClick={toggleMenu}>
@@ -83,8 +85,9 @@ function App() {
                 </li>
 
                 <li>
-                <NavLink to="/Create"><Button variant="primary">Login</Button>{' '}</NavLink>
-                
+                  <NavLink to="/Create">
+                    <Button variant="primary">Login</Button>
+                  </NavLink>
                 </li>
               </>
             )}
