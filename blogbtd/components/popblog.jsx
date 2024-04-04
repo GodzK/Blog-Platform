@@ -9,9 +9,9 @@ function popblog() {
     <main className="testimonial-grid">
     <article className="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
       <div className="flex">
-        <div>
-          <img  src="/public/images/profile.png" alt="daniel clifford"/>
-        </div>
+        
+        
+
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position">Sarasas Pittaya</p>
@@ -35,9 +35,8 @@ function popblog() {
     </article>
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
-        <div>
-          <img src="/public/images/profile.png" alt="Jonathan Walters"/>
-        </div>
+       
+       
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position">King Mongkuts University of Technology Thonburi (KMUTT)</p>
@@ -55,9 +54,7 @@ function popblog() {
     </article>
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
-        <div>
-          <img src="/public/images/profile.png" alt="Jeanette Harmon"/>
-        </div>
+     
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
@@ -74,9 +71,7 @@ function popblog() {
     </article>
     <article className="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
       <div className="flex">
-        <div>
-          <img className="border-primary-400" src="/public/images/profile.png" alt="Patrick Abrams"/>
-        </div>
+       
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
@@ -97,9 +92,8 @@ function popblog() {
     </article>
     <article className="testimonial flow bg-secondary-500 text-neutral-100">
       <div className="flex">
-        <div>
-          <img src="/public/images/profile.png" alt="Phakaphol Dherachaisuphakij"/>
-        </div>
+       
+       
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
