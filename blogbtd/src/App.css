@@ -70,23 +70,26 @@ nav .navbar .menu {
 
 .menu {
   display: flex;
+  text-align: center;
   align-items: center;
 }
 
 .menu.active {
   display: flex;
+  justify-content:  center;
+  text-align: center;
   flex-direction: column;
-  background-color: #460087;
-  position: absolute;
+  background-color: #460087;  
   top: 75px;
   left: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
 }
 
 .menu li {
   list-style: none;
   margin: 10px 0;
+  text-align: center;
 }
 
 .menu li a {
