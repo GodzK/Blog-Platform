@@ -12,8 +12,8 @@ function category() {
   return (
     <div className="grid-container">
       
-    <div className="grid-item">  <Card sx={{ maxWidth: 345 }}>
-      
+    <div className="grid-item">
+        <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
           height="400"

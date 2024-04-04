@@ -3,7 +3,7 @@ import './Create.css'
 function Create() {
   return (
     <div className="login-box">
-    <h2>PK <span>Blog</span></h2>
+    <h2>Log<span>In</span></h2>
     <form>
       <div className="user-box">
         <input type="text" name="" required=""/>

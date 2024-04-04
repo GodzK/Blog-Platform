@@ -144,8 +144,10 @@ h1{
   
   /* components */
   .testimonial-grid {
+    width: 90;
+    height: 90;
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
     grid-auto-columns: 1fr;
     grid-template-areas:
      'one'
@@ -154,7 +156,7 @@ h1{
      'four'
      'five';
   
-    padding-block: 2rem;
+    
     width: min(95%, 70rem);
     margin-inline: auto;
   }

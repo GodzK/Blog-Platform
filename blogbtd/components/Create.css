@@ -65,6 +65,9 @@
     margin-top: 40px;
     letter-spacing: 4px
   }
+  .blog-image-wrapper{
+    padding-bottom: 3rem;
+  }
   
   .login-box a:hover {
     background: #03e9f4;

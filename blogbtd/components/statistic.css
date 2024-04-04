@@ -1,5 +1,5 @@
 .containerr {
     display: grid;
-    place-items: center; /* Center the contents both horizontally and vertically */
-    height: 100vh; /* Set the height of the container to full viewport height */
+    place-items: center;
+    height: 100vh;
 }
