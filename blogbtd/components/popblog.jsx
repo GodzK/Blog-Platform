@@ -5,7 +5,7 @@ function popblog() {
   return (
     <div>
       
-    <h1 className='header-text' style={{color:'white' , textAlign:"center" , padding:"1rem"} }>Popular <span>blog🎆</span> </h1>
+    <h1 className='header-text'>Popular <span>blog🎆</span> </h1>
     <main className="testimonial-grid">
     <article className="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
       <div className="flex">
@@ -13,13 +13,12 @@ function popblog() {
           <img  src="../public/images/profile.png" alt="daniel clifford"/>
         </div>
         <div>
-          <h2 className="name">Daniel Clifford</h2>
-          <p className="position">Verified Graduate</p>
+          <h2 className="name">Phakaphol Dherachaisuphakij</h2>
+          <p className="position">Sarasas Pittaya</p>
         </div>
       </div>
       <p>
-        I received a job offer mid-course, and the subjects I learned were current, if not more so,
-        in the company I joined. I honestly feel I got every penny’s worth.
+       Hover Effectคืออะไร??
       </p>
       <p>
         “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
@@ -28,7 +27,11 @@ function popblog() {
         The next 12 weeks was the best - and most grueling - time of my life. Since completing
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
       </p>
-      <a href="https://www.youtube.com/watch?v=cSUpTJ-clrs&t=366s"><button>See More</button></a>
+        <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <button>อ่านเพิ่มเติม</button>
+      </a> 
+      </a>  
     </article>
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
@@ -36,27 +39,28 @@ function popblog() {
           <img src="../public/images/profile.png" alt="Jonathan Walters"/>
         </div>
         <div>
-          <h2 className="name">Jonathan Walters</h2>
-          <p className="position">Verified Graduate</p>
+          <h2 className="name">Phakaphol Dherachaisuphakij</h2>
+          <p className="position">King Mongkuts University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
       <p>
-        The team was very supportive and kept me motivated
+       Gsapคืออะไร?
       </p>
       <p>
         “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
         for a big company. This was one of the best investments I’ve made in myself. ”
-      </p>
-      <a href="https://www.youtube.com/watch?v=cSUpTJ-clrs&t=366s"><button>See More</button></a>
+    <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <button>อ่านเพิ่มเติม</button>
+      </a>    </p>
     </article>
-    <article className="testimonial flow bg-primary-400 quote text-neutral-100">
+    <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
         <div>
           <img src="../public/images/profile.png" alt="Jeanette Harmon"/>
         </div>
         <div>
-          <h2 className="name">Jeanette Harmon</h2>
-          <p className="position">Verified Graduate</p>
+          <h2 className="name">Phakaphol Dherachaisuphakij</h2>
+          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
       <p>
@@ -64,8 +68,9 @@ function popblog() {
       <p>
         “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
         while doing something I love. ”
-      </p>
-      <a href="https://www.youtube.com/watch?v=cSUpTJ-clrs&t=366s"><button>See More</button></a>
+    <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <button>อ่านเพิ่มเติม</button>
+      </a>    </p>
     </article>
     <article className="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
       <div className="flex">
@@ -73,8 +78,8 @@ function popblog() {
           <img className="border-primary-400" src="../public/images/profile.png" alt="Patrick Abrams"/>
         </div>
         <div>
-          <h2 className="name">Patrick Abrams</h2>
-          <p className="position">Verified Graduate</p>
+          <h2 className="name">Phakaphol Dherachaisuphakij</h2>
+          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
       <p>
@@ -86,17 +91,18 @@ function popblog() {
         gave me the confidence necessary to be able to go out in the world and present myself as a capable
         junior developer. The standard is above the rest. You will get the personal attention you need from
         an incredible community of smart and amazing people. ”
-      </p>
-      <a href="https://www.youtube.com/watch?v=cSUpTJ-clrs&t=366s"><button>See More</button></a>
+    <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <button>อ่านเพิ่มเติม</button>
+      </a>    </p>
     </article>
-    <article className="testimonial flow bg-neutral-300 text-secondary-100">
+    <article className="testimonial flow bg-secondary-500 text-neutral-100">
       <div className="flex">
         <div>
-          <img src="../public/images/profile.png" alt="Kira Whittle"/>
+          <img src="../public/images/profile.png" alt="Phakaphol Dherachaisuphakij"/>
         </div>
         <div>
-          <h2 className="name">Kira Whittle</h2>
-          <p className="position">Verified Graduate</p>
+          <h2 className="name">Phakaphol Dherachaisuphakij</h2>
+          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
       <p>
@@ -111,8 +117,9 @@ function popblog() {
         could ever have. In fact, I’ve often referred to it during interviews as an example of my developent
         experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
         100% recommend! ”
-      </p>
-      <a href="https://www.youtube.com/watch?v=cSUpTJ-clrs&t=366s"><button>See More</button></a>
+    <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
+        <button>อ่านเพิ่มเติม</button>
+      </a>    </p>
     </article>
   </main>
 

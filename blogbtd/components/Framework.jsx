@@ -6,8 +6,8 @@ function Framework() {
 
   return (
     <>
-     <h2 className="text-center ">บทความเกี่ยวกับ <span>Framework</span></h2>
-      <div className="grid-container">     
+     <h2 className="text-centerr ">บทความเกี่ยวกับ <span>Framework</span></h2>
+      <div className="grid-containerr">     
   
        
         {Frameworkdata.map((item) => (

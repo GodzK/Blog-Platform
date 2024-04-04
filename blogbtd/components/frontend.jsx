@@ -6,8 +6,8 @@ function Frontend() {
 
   return (
     <>
- <h2 className="text-center m-2">บทความเกี่ยวกับ <span>Frontend</span></h2>
-      <div className="grid-container">     
+ <h2 className="text-centerr m-2">บทความเกี่ยวกับ <span>Frontend</span></h2>
+      <div className="grid-containerr">     
       
         {frontEndData.map((item) => (
           <div key={item.link}>
