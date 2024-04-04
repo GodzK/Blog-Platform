@@ -4,10 +4,10 @@ import Feedback from '../components/feedback';
 import Statistic from '../components/statistic';
 import Contact from '../components/contact';
 import Category from '../components/category';
-import Homepages from './Homepages';
+import Homepages from './Homepages'
 import Backend from '../components/backend';
 import Frontend from '../components/frontend';
-import UXUI from '../components/Uxui';
+import UXUI from '../components/Uxui'
 import Framework from '../components/Framework';
 import Button from 'react-bootstrap/Button';
 import Create from '../components/Create';
@@ -16,11 +16,11 @@ import './App.css';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024);
+      setIsMobile(window.innerWidth <= 1026);
     };
 
     handleResize();
@@ -35,8 +35,8 @@ function App() {
   };
 
   return (
-    <>
-      <BrowserRouter>
+    <> 
+    <BrowserRouter>
         <nav>
           <div className="navbar">
             <div className="logo">
