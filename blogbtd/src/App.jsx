@@ -84,7 +84,7 @@ function App() {
 
                 <li>
                 <NavLink to="/Create"><Button variant="primary">Login</Button>{' '}</NavLink>
-                  <Button variant="light">Sign up</Button>{' '}
+                
                 </li>
               </>
             )}
