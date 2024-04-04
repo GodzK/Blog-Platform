@@ -10,6 +10,8 @@ import Frontend from '../components/frontend';
 import UXUI from '../components/Uxui'
 import Framework from '../components/Framework';
 import Button from 'react-bootstrap/Button';
+import Create from '../components/Create';
+import BlogCreate from '../components/BlogCreate';
 import './App.css';
 
 function App() {
@@ -52,8 +54,8 @@ function App() {
             {isMobile && showMenu && (
               <>
                 <li>
-                  <NavLink to="/" onClick={() => setShowMenu(false)}>
-                    Home
+                  <NavLink to="/BlogCreate" onClick={() => setShowMenu(false)}>
+                    Create Blog
                   </NavLink>
                 </li>
                 <li>
@@ -71,7 +73,7 @@ function App() {
             {!isMobile && (
               <>
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/BlogCreate">Create Blog</NavLink>
                 </li>
                 <li>
                   <NavLink to="/Statistic">Statistic</NavLink>
@@ -81,7 +83,7 @@ function App() {
                 </li>
 
                 <li>
-                  <Button variant="primary">Login</Button>{' '}
+                <NavLink to="/Create"><Button variant="primary">Login</Button>{' '}</NavLink>
                   <Button variant="light">Sign up</Button>{' '}
                 </li>
               </>
@@ -100,6 +102,8 @@ function App() {
           <Route path="/Frontend" element={<Frontend />} />
           <Route path="/UX-UI" element={<UXUI />} />
           <Route path="/Framework" element={<Framework />} />
+          <Route path="/Create" element={<Create />} />
+          <Route path="/BlogCreate" element={<BlogCreate />} />
         </Routes>
       </BrowserRouter>
     </>
