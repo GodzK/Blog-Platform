@@ -4,7 +4,11 @@
   color: #ffffff;
   --header-text-color: rgb(255, 255, 255)fff;
   --nav-color: rgba(70, 0, 135, 1)
+  --background:radial-gradient(circle, rgba(70, 0, 135, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
+}
+body {
+  background: radial-gradient(circle, rgba(70, 0, 135, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 h1,  p {
   color: var(--header-text-color);
@@ -15,6 +19,8 @@ h1,  p {
   --navbar-text-color: #fff;
   background: linear-gradient(0deg, rgb(216, 62, 255) 0%, rgb(255, 255, 255) 100%);
   --nav-color:rgb(216, 62, 255) ;
+  --background:linear-gradient(0deg, rgb(216, 62, 255) 0%, rgb(255, 255, 255) 100%);
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -259,3 +265,6 @@ button:hover {
   cursor: pointer;
   z-index: 999;
 }
+
+
+

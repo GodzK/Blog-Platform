@@ -19,11 +19,11 @@
         <div  className="grid-container">
           <Grid item xs={12} md={6} className='grid-item'>
             <CardContent>
-              <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
+              <Typography variant="h6" component="div" color="text.secondary" style={{color:"black"}} gutterBottom>
                 All Blog
               </Typography>
-              <Typography variant="h4" component="div">
-                Total Viewer  {totalViewers}
+              <Typography variant="h4" component="div" style={{color:"black"}}>
+                Total Viewer{totalViewers}
               </Typography>
               <Typography color="text.secondary">
                 Active
@@ -35,7 +35,7 @@
               <Typography variant="h6" component="div" color="text.secondary" gutterBottom>
                 All Blog
               </Typography>
-              <Typography variant="h4" component="div">
+              <Typography variant="h4" component="div" style={{color:"black"}}>
                 Total Blog {totalBlogs} 
               </Typography>
               <Typography color="text.secondary">
