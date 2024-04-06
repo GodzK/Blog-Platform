@@ -8,7 +8,7 @@ function Homepages() {
       <Header />
       <Popblog/>
       <div className="blog-head">
-        <h2>My Blog</h2>
+        <h2 style={{color:"white"}}>My Blog</h2>
       </div>
       <Data/>
     </>

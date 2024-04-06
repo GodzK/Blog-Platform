@@ -17,6 +17,7 @@ import './App.css';
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,9 +35,13 @@ function App() {
     setShowMenu(!showMenu);
   };
 
+  const toggleTheme = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <> 
-    <BrowserRouter>
+    <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
+      <BrowserRouter>
         <nav>
           <div className="navbar">
             <div className="logo">
@@ -108,7 +113,11 @@ function App() {
           <Route path="/BlogCreate" element={<BlogCreate />} />
         </Routes>
       </BrowserRouter>
-    </>
+ 
+      <div className="toggle-button" onClick={toggleTheme}>
+        {darkMode ? '🎀Pink Mode' : '🖤Dark Mode'}
+      </div>
+    </div>
   );
 }
 

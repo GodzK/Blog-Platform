@@ -14,13 +14,13 @@ function popblog() {
 
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
-          <p className="position">Sarasas Pittaya</p>
+          <p className="position" style={{ color: "#fff" }}>Sarasas Pittaya</p>
         </div>
       </div>
-      <p>
+      <p style={{ color: "#fff" }}>
        Hover Effectคืออะไร??
       </p>
-      <p>
+      <p style={{ color: "#fff" }}>
         “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
         transition and have heard some people who had an amazing experience here. I signed up
         for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
@@ -39,13 +39,13 @@ function popblog() {
        
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
-          <p className="position">King Mongkuts University of Technology Thonburi (KMUTT)</p>
+          <p className="position" style={{ color: "#fff" }}>King Mongkuts University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
-      <p>
+      <p style={{ color: "#fff" }}>
        Gsapคืออะไร?
       </p>
-      <p>
+      <p style={{ color: "#fff" }}>
         “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
         for a big company. This was one of the best investments I’ve made in myself. ”
     <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
@@ -57,12 +57,12 @@ function popblog() {
      
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
-          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
+          <p className="position" style={{ color: "#fff" }}>King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
-      <p>
+      <p style={{ color: "#fff" }}>
         An overall wonderful and rewarding experience</p>
-      <p>
+      <p style={{ color: "#fff" }}>
         “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
         while doing something I love. ”
     <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
@@ -74,14 +74,14 @@ function popblog() {
        
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
-          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
+          <p className="position" style={{ color: "#fff" }}>King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
-      <p>
+      <p style={{ color: "#fff" }}>
         Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
         learning from their experiences was easy.
       </p>
-      <p>
+      <p style={{ color: "#fff" }}>
         “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
         gave me the confidence necessary to be able to go out in the world and present myself as a capable
         junior developer. The standard is above the rest. You will get the personal attention you need from
@@ -96,13 +96,13 @@ function popblog() {
        
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
-          <p className="position">King Mongkut's University of Technology Thonburi (KMUTT)</p>
+          <p className="position" style={{ color: "#fff" }}>King Mongkut's University of Technology Thonburi (KMUTT)</p>
         </div>
       </div>
-      <p>
+      <p style={{ color: "#fff" }}>
         Such a life-changing experience. Highly recommended!
       </p>
-      <p>
+      <p style={{ color: "#fff" }}>
         “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
         professionals who can help me learn programming step by step. I was encouraged to enroll by a former
         student of theirs who can only say wonderful things about the program. The entire curriculum and staff
