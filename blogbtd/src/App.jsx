@@ -12,6 +12,7 @@ import Framework from '../components/Framework';
 import Button from 'react-bootstrap/Button';
 import Create from '../components/Create';
 import BlogCreate from '../components/BlogCreate';
+import Hover from '../blog/hover'
 import './App.css';
 
 function App() {
@@ -111,6 +112,8 @@ function App() {
           <Route path="/Framework" element={<Framework />} />
           <Route path="/Create" element={<Create />} />
           <Route path="/BlogCreate" element={<BlogCreate />} />
+          <Route path="/Hover" element={<Hover/>} />
+
         </Routes>
       </BrowserRouter>
  
