@@ -51,7 +51,7 @@ function hovers() {
   return (
     <>
     <div className="container">
-      <img src="/images/he.jpg" alt="" className="image"/>
+      <img src="/images/he.jpg" alt="" className="imagei"/>
       <h1 className="text">Hover Effect</h1>
     </div>
     <div className='centerp'>  
