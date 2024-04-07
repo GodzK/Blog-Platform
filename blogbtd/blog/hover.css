@@ -9,7 +9,7 @@
 .containerrrr h1{
   animation: Color 4s linear infinite;
   -webkit-animation: Color 4s ease-in-out infinite;
-  text-shadow: 10px 10px #F0F0F0;
+ 
 }
 @keyframes Color{
   0%{
