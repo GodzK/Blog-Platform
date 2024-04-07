@@ -5,13 +5,10 @@ function popblog() {
   return (
     <div>
       
-    <h1 className='header-text'>Popular <span>blog🎆</span> </h1>
+    <h1 className='header-text'>Popular <span>blog📝</span> </h1>
     <main className="testimonial-grid">
     <article className="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
       <div className="flex">
-        
-        
-
         <div>
           <h2 className="name">Phakaphol Dherachaisuphakij</h2>
           <p className="position" style={{ color: "#fff" }}>Sarasas Pittaya</p>
@@ -21,17 +18,16 @@ function popblog() {
        Hover Effectคืออะไร??
       </p>
       <p style={{ color: "#fff" }}>
-        “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
-        transition and have heard some people who had an amazing experience here. I signed up
-        for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
-        The next 12 weeks was the best - and most grueling - time of my life. Since completing
-        the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+        “ สวัสดีครับ พีเค ภัคพล ธีรชัยศุภกิจ section frontend developer วันนี้ผมมากับบทความHover Effect ซึ่งเหมาะกับคนที่ต้องการจะเพิ่มลูกเล่นในเว็บของตัวเองให้ดูดีมากยิ่งขึ้นครับผม
+        มาเริ่มกันที่Hover Effectคืออะไร?
+        Hover Effect คือ เมื่อเราเอาเมาส์ไปชี้ องค์ประกอบบางอย่างจะถูกเปลี่ยนเเปลงไป ซึ่งองค์ประกอบนั้นเนี่ย อาจเป็นได้ทั้ง ข้อความ , ปุ่ม , รูปภาพ ซึ่งการเปลี่ยนเเปลงนั้นเนี่ย สามารถเป็นการเพิ่มGraphic Effect , สี , ขนาด , หรือการเคลื่อนไหวให้องค์ประกอบหรือเราเรียกว่าcomponentเนี่ยดูมีสีสันเเละน่าสนใจขึ้น
+        มาลองเขียนHover Effect กันเลย!
+        เราจะทำHover Effectกับปุ่มกันก่อนนะครับ ขั้นตอนที่:1 สร้างไฟล์ HTML กับ CSS ”
       </p>
-        <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
-        <a href="https://www.youtube.com/watch?v=rg7Fvvl3taU" className="button-link">
-        <button>อ่านเพิ่มเติม</button>
-      </a> 
-      </a>  
+        <Link to="/Hover" className="button-link">
+       <button>อ่านเพิ่มเติม</button>
+      </Link> 
+     
     </article>
     <article className="testimonial flow bg-secondary-400 text-neutral-100">
       <div className="flex">
