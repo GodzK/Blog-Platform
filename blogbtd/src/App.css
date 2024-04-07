@@ -46,6 +46,7 @@ nav .navbar {
   max-width: 100%;
   background: var(--nav-color);
   margin: auto;
+  z-index: 100000000;
 }
 
 nav .navbar .logo a {

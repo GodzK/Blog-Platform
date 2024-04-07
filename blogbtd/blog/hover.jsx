@@ -63,15 +63,15 @@ function hovers() {
     <p>เราจะทำHover Effectกับปุ่มกันก่อนนะครับ</p>
     <h1>ขั้นตอนที่:1 สร้างไฟล์ HTML กับ CSS</h1>
     <p>โค้ด HTMl ไฟล์ index.html</p>
-    <textarea readOnly rows={10} cols={50} value={htmlCode}></textarea>
+    <textarea style={{width:"100%"}}  readOnly rows={10} cols={50} value={htmlCode}></textarea >
     <p>โค้ด Css ไฟล์style.css</p>
-    <textarea readOnly rows={10} cols={50} value={cssCode}></textarea>
+    <textarea style={{width:"100%"}}  readOnly rows={10} cols={50} value={cssCode}></textarea >
     <p>โค้ดcss ผมเเต่งให้ปุ่มมาอยู่ตรงกลางเพื่อให้เห็นได้ชัดเจนขึ้น นี่คือโค้ดที่จะได้ ครับ</p>
     <img src='/images/giphy2.gif'></img>
     <p>จะเห็นได้ว่าเมื่อเราเอาเมาส์ไปวางบนcomponentก็จะไม่เกิดอะไรขึ้น เรามาลองทำให้มันมีสีสันมากกว่านี้กัน</p>
     <h1>ขั้นตอนที่: 2 .ใส่Hoverของclass Buttonที่สร้าง</h1>
     <p>!!ข้อควรระวัง :hoverจะต้องอยู่ติดกัน ไว้เว้นวรรคกับclassที่จะตกเเต่ง</p>
-    <textarea readOnly rows={10} cols={50} value={buttonCode}></textarea>
+    <textarea style={{width:"100%"}}  readOnly rows={10} cols={50} value={buttonCode}></textarea >
     <p>นี่คือสิ่งที่ได้!</p>
     <img src="/images/giphy3.gif" alt="" />
     <p>เมื่อเราเอาเมาส์ไปวาง สีของblackgroundที่เราต้องไว้ หรือ สีของตัวอักษรก็ได้เปลี่ยนเเปลงไปเเล้วครับ!!</p>
