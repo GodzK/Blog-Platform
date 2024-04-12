@@ -20,11 +20,11 @@
 ,
 {
     "link": "https://www.borntodev.com/?p=95333",
-    "img" : "/images/comingsoon.jpg",
-    "text": "Comingsoon",
-    "tech1":"BackEnd",
-    "tech2": "CSS",
-    "tech3":"JAVASCRIPT",
+    "img" : "/images/searchfilter.png",
+    "text": "Search Filter ด้วยReact",
+    "tech1":"FronEnd",
+    "tech2": "Bootstrap",
+    "tech3":"JSX",
     "viewer": 7
 }
 ,
